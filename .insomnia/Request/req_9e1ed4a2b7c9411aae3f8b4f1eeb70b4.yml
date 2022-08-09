@@ -1,0 +1,40 @@
+_id: req_9e1ed4a2b7c9411aae3f8b4f1eeb70b4
+type: Request
+parentId: wrk_62d76bba45644436bab6755fbbf5545d
+modified: 1660013891170
+created: 1660011729698
+url: https://dv2corp3-api.dv.absolute.com/v2/reporting/devices?$select=esn
+name: PubAPI-devices
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_6518a013f7314098829af0f8be2238df
+    name: host
+    value: dv2corp3-api.dv.absolute.com
+    description: ""
+  - id: pair_5945bbe2d2184ba0b13a14383e1028ba
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_8e430e07145a47f2b5b7449a66915281
+    name: x-abs-date
+    value: 20220809T025734Z
+    description: ""
+  - id: pair_3cb5a5ad9d874394aef35ab2dae19311
+    name: Authorization
+    value: ABS1-HMAC-SHA-256
+      Credential=a5053b8d-3dc6-416f-a9ae-19cae3af26ff/20220809/cadc/abs1,
+      SignedHeaders=host;content-type;x-abs-date,
+      Signature=c609016c71160bdfa1bd9567a716aa85cb60b04308dfc5014bbe210b002d37cf
+    description: ""
+authentication: {}
+metaSortKey: -1660011729698
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

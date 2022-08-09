@@ -1,0 +1,37 @@
+_id: req_2441cad7368247fbbb10e4ad53b8b519
+type: Request
+parentId: wrk_62d76bba45644436bab6755fbbf5545d
+modified: 1659112948501
+created: 1658455506786
+url: http://localhost:8418/persistence-two-webservice/authblob
+name: AuthBlob-94B02526
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_5e3807a55f6241d285f5c4427e7d7172
+    name: request-uid
+    value: 205199bd-68fa-4d6a-9e34-76c3a2d2682d
+    description: ""
+  - id: pair_5cf3f103db054539b4a4de652f5e9029
+    name: platformId
+    value: "-1800395482"
+    description: ""
+  - id: pair_bb5b2da0ba564351ad22fbd5536d9df2
+    name: serverId
+    value: "-766482886"
+    description: ""
+  - id: pair_5fbf8a5cbbe84a01bc66de2d1160b9aa
+    name: apiVersion
+    value: "12"
+    description: ""
+authentication: {}
+metaSortKey: -1658455506786
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

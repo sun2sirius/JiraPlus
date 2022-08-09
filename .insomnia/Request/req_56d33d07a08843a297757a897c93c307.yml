@@ -1,0 +1,48 @@
+_id: req_56d33d07a08843a297757a897c93c307
+type: Request
+parentId: wrk_62d76bba45644436bab6755fbbf5545d
+modified: 1660004906661
+created: 1659113068550
+url: http://localhost:8418/persistence-two-webservice/devices/a06b0039-77d7-4108-84b5-2ddc0db46f5a/signed-messages
+name: SignMsg-00000001
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [{"type": "18",
+    	"messages":["dGVzdCBtZXNzYWdlIGZyb20gcmNoZW4gZm9yIEFCUy0xNjUzNDk="]}]
+parameters: []
+headers:
+  - id: pair_5e3807a55f6241d285f5c4427e7d7172
+    name: request-uid
+    value: 205199bd-68fa-4d6a-9e34-76c3a2d2682d
+    description: ""
+  - id: pair_5cf3f103db054539b4a4de652f5e9029
+    name: platformId
+    value: "00000001"
+    description: ""
+  - id: pair_bb5b2da0ba564351ad22fbd5536d9df2
+    name: serverId
+    value: "-766482886"
+    description: ""
+  - id: pair_5fbf8a5cbbe84a01bc66de2d1160b9aa
+    name: apiVersion
+    value: "12"
+    description: ""
+  - id: pair_4d46241e574b471db43b005b47580445
+    name: nonce
+    value: AAEAAAZOkR/6OQTQa6fGhlrzhGrh7RZibAeQ8jDrEtJi0SJfRbgHsWW9BNfgdCXH5gmkwyIX4yqzMHm75vvRWM7oSJ+4X8LOAZm0YSA4JHhhaXZBdFBWP+ajmdnWJfb/eEwxc32fBBTD4/JnCWSPDsStyqcq669PGc5Ehe63Wub2720gUvXHNiY+NvHA2e1xtjCz30gt/T/92FUta59Uz4kkd3TQWJT7pzSmwBkgX1eXMBTmGwJGJpbIHNtjC9PvQXlAE5pzYzgRhxz99VDPxIP6ul/rGxULSO4ldVK8CjRud//m5gNBtPPCLpDlsUe0oAxF2ga4lHWBMn22pQKenVfZp4c6ZlDSbW7ceObsr2A=
+    description: ""
+  - name: Content-Type
+    value: application/json; charset=UTF-8
+    id: pair_6b3d3698a0c64b8581e578bb00246c88
+authentication: {}
+metaSortKey: -1658455506686
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
