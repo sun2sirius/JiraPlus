@@ -1,16 +1,16 @@
-_id: req_56d33d07a08843a297757a897c93c307
+_id: req_5ec2b70861324ab69891605a99bb3ca5
 type: Request
 parentId: fld_38f643edca25400f91ddb1169e0b75eb
-modified: 1660590492014
-created: 1659113068550
-url: http://localhost:8418/persistence-two-webservice/devices/a06b0039-77d7-4108-84b5-2ddc0db46f5a/signed-messages
-name: SignMsg-00000001
+modified: 1660590542802
+created: 1660590389336
+url: https://dv2corp3-internal.dv.absolute.com/persistence-two-webservice/devices/a06b0039-77d7-4108-84b5-2ddc0db46f5a/signed-messages
+name: SignMsg-94B02526-dv2corp3
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
-    [{"type": "18",
+    [{"type": "18", 
     	"messages":["dGVzdCBtZXNzYWdlIGZyb20gcmNoZW4gZm9yIEFCUy0xNjUzNDk="]}]
 parameters: []
 headers:
@@ -20,7 +20,7 @@ headers:
     description: ""
   - id: pair_5cf3f103db054539b4a4de652f5e9029
     name: platformId
-    value: "00000001"
+    value: "-1800395482"
     description: ""
   - id: pair_bb5b2da0ba564351ad22fbd5536d9df2
     name: serverId
@@ -32,13 +32,13 @@ headers:
     description: ""
   - id: pair_4d46241e574b471db43b005b47580445
     name: nonce
-    value: AAEAAAZOkR/6OQTQa6fGhlrzhGrh7RZibAeQ8jDrEtJi0SJfRbgHsWW9BNfgdCXH5gmkwyIX4yqzMHm75vvRWM7oSJ+4X8LOAZm0YSA4JHhhaXZBdFBWP+ajmdnWJfb/eEwxc32fBBTD4/JnCWSPDsStyqcq669PGc5Ehe63Wub2720gUvXHNiY+NvHA2e1xtjCz30gt/T/92FUta59Uz4kkd3TQWJT7pzSmwBkgX1eXMBTmGwJGJpbIHNtjC9PvQXlAE5pzYzgRhxz99VDPxIP6ul/rGxULSO4ldVK8CjRud//m5gNBtPPCLpDlsUe0oAxF2ga4lHWBMn22pQKenVfZp4c6ZlDSbW7ceObsr2A=
+    value: AAEAAIuKuMhD2AlJAfdQGBOLejSg/FMRc+wOn7QLkpoc3I1XQBeBLzPcypnQS1tmYw+Qz34rNdn/FQ288K5gZnhwxQIfXzlMJXuUSLq9bY0i77oOjN/UJuoZ7cuSChSwsaTHSzpTVhVle3xiR/Cb7O9xeIi8mfVXmHXJaVjm7rNoxsrc9WGCbNTlLtrbrY7TfXUY/OB8OwK2HnItteMot9ky/uvwMN7HQr+rGLTV5Lz8s5C/+WEkSGFiQOfcZUpnKiuI/fAKFPIoewuSRUpelEGNmNsEkwqHvobm0+P46Xz+5/G4Hj0GyDyJif1sY0ZgsK5Wa17l7DRgUWv9SveGZBwyfsQ=
     description: ""
   - name: Content-Type
     value: application/json; charset=UTF-8
     id: pair_6b3d3698a0c64b8581e578bb00246c88
 authentication: {}
-metaSortKey: -1658455506936
+metaSortKey: -1658455506861
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

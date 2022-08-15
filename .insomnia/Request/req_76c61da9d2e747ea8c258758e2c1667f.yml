@@ -1,10 +1,10 @@
-_id: req_eb1a8194781d47bd9cba4a08ee4388bd
+_id: req_76c61da9d2e747ea8c258758e2c1667f
 type: Request
-parentId: fld_5c015c80277e404d96061258fb021326
-modified: 1660587984124
-created: 1659129140635
-url: https://dv2corp3-internal.dv.absolute.com/validate-webservice/validation/stub?qwe=wert
-name: Validate-Service-dv2corp3
+parentId: fld_38f643edca25400f91ddb1169e0b75eb
+modified: 1660590330444
+created: 1660590305971
+url: https://dv2corp3-internal.dv.absolute.com/persistence-two-webservice/authblob
+name: AuthBlob-94B02526-dv2corp3
 description: ""
 method: GET
 body: {}
@@ -27,7 +27,7 @@ headers:
     value: "12"
     description: ""
 authentication: {}
-metaSortKey: -1658455506711
+metaSortKey: -1658455506748.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
