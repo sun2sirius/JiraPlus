@@ -1,7 +1,7 @@
 _id: req_9e1ed4a2b7c9411aae3f8b4f1eeb70b4
 type: Request
 parentId: wrk_62d76bba45644436bab6755fbbf5545d
-modified: 1660015126637
+modified: 1660857657552
 created: 1660011729698
 url: https://dv2corp3-api.dv.absolute.com/v2/reporting/devices?$select=esn
 name: PubAPI-devices

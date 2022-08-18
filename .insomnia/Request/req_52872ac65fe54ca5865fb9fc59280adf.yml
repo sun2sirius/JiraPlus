@@ -1,26 +1,23 @@
 _id: req_52872ac65fe54ca5865fb9fc59280adf
 type: Request
-parentId: wrk_62d76bba45644436bab6755fbbf5545d
-modified: 1660590208190
+parentId: fld_3a09e2dc8cd244d98ad4ad098add36fa
+modified: 1660865584205
 created: 1660003715440
 url: https://dv2corp3-f5.absolute.com/ua/bios/info
-name: New Request
+name: /bios/info
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: >-
     {
-        "action_id": "77076a0b-b41d-4bca-ab00-54356735e7f1",
-        "data": {
-            "abtStatus": "DAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "per": {
+            "supportedEnv": true,
+            "abtStatus": "DAAAADwAAQfi+sFgEAAAAAEAAAAnAAAAMwAAAAAAAABBQUFBQUFBQUFBQkJCQkIwMDAwMPLPA4fTCp5CsxwlRBpWGC9ux/5i",
             "abtStatus2": "",
-    			  "ext": {
-                "{1764daf5-6a8e-4b2f-9781-1e1d1681c834}": "JZA5p3eQAAdRE\/CkusDvipsUHNPmKC47wrXUFwInfmMFt1i\/WJ23Y6vSl0tr+Hfs\/+PlvW0debBBT7LJ\/gpw4QlwLmInXQACjHRsuOITvRQ="
-            },
-            "nonce": "AAEAABcZZjj1eA9QL0H8c15Xzp+Ab7juoQyFcceOicNeFXZ4t3EZuZUNFki+P34+FAt6ajLlZCwz/0uEYX9KFPfrLDsQIZ4x9Rbe9jmUtytRtPRtcrzT3YSkBqSJFu9CSbW3hpBCqJwttjV8Jtt0ECX9QVOaLvpELpyKP67OrDRPTJsH+tUQmzlrjWWbVZ+Z2cHSt/MnGj2R5fDjlV04w2a+Tm1sqg46xr0qWZoGAawCODsDrW3LIrqaO9PXciKXLQnRs2m8EU8BVspV5GmMGUSjpFDhkm087XbbC6R6wL0DLzGnDJbDJiItsUZM0xfXqJf3W8jy+WHOp3CB0D+Ar/jQTVA="
-        },
-        "status": "Inprogress"
+            "ext": {"{1764daf5-6a8e-4b2f-9781-1e1d1681c834}": "JZA5p3eQAAdRE\/CkusDvipsUHNPmKC47wrXUFwInfmMFt1i\/WJ23Y6vSl0tr+Hfs\/+PlvW0debBBT7LJ\/gpw4QlwLmInXQACjHRsuOITvRQ="},
+            "nonce": "AAEAALSF0mfmt0lsV6UD2B6UB8mkb6zq7rN3to6lPtefVceOnnP1Iw240cSTti9rd6ADtnyOUPxJFMPAUaWFHgUf0N9pEwW/sbQHak3ASDcKfc3xrHrhiTtpuKFH1RKQPXHhvqTb/56plaUv/AlcQLJgUf+8W2+w342FQ6wIUhM8Tu9rwZe0bB8EZn+mIvQMTTQ7yQWGLGS5uIwb8BASaTjpCC5UdKtOynKNnZJZVfl8XR87MM80JNAPncpFYCovVN930AWFVw6q90cvlvqouHYdiHKtfFOYqAPNYLQppHzuItbZOSYetcNIVljh6+DonwIOXdwMgo7Q4kjCy8Aa/CQc9lwnAAAAl1T/R+L6wWA="
+        }
     }
 parameters: []
 headers:
@@ -30,14 +27,14 @@ headers:
     description: ""
   - id: pair_fb59da1232894ee588276a4845098fb4
     name: DEVICE-TOKEN
-    value: teoH6/gt5PFfAsVcMsPbbA==.Yj7xePL35gddfK8GIRTbH0uEgevASJKAEOuiIjcIE1/YQpsqTRQk7FUitLSK4Z84urstt27Qx/ToeXjHKChgc/v6UuN2FgRXO2/K+/MXOlhSh4GHBVmXUIUggLbkLU0dQ8sYiglMvV1igC1resrWoK6j/xk+NCnkNkAbH+jYv3ZtxKLdvas8vu5zZzSVpHHr86L6yAbEHbH1CGHJqknaG6CD4q3812EX+6oZSTu7TQDM0SKBGDlN4I9xMGV8Ffziaiv6UdbTMFG6U3e81R6rfd5ZN1lXosYJDve5Eo+PWqk=.Gcew5PfDK46IJGYQPPeZ+68VJfI=
+    value: y5rxcM0X0opmaJ4tlxRsBQ==.sOCnKLu56rzBpX4PmnYP5g4swBh4YyVU1lkaYNQ7eJdfzvHfDejye//GAPmyMRoRD8WjBOSlueuxWJMDjN3v/iatWtkGuBIXs+RRBH1wBPU9kXeVnKeQN4cDaywqZD7Eaf5Jh9VNlraR5hL3ffEEQILQVQ08OROVzPHwdEH7/UWQFVrkTk4vco8CdLJC2PGj/GhtmxfVM+C+sW2CGYHyvdbEOgC3C/euCT8sd26i5BsDsZYtb+ZQlY0d2Z69u8Eb.OMDGQPYpZqcMduBZguHD8dV2iRA=
     description: ""
   - id: pair_315ae610de8745d9bcae63d0e530e717
     name: NG-API
-    value: 5BxWd/rIveVEOpcVGI4JmE7R97fnludk7TEA0VZnUNE=
+    value: clXGEcLuvtsbVxMf2d4vONvL8/dAwK1AvhX1ym+d2vk=
     description: ""
 authentication: {}
-metaSortKey: -1660003715440
+metaSortKey: -1660860605123.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
